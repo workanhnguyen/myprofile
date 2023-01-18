@@ -8,7 +8,7 @@ import logoFacebook from './images/logo-facebook.svg';
 function App() {
 
   return (
-    <div className={(styles.wrapper)}>
+    <div className={clsx(styles.wrapper)}>
       <header className={clsx(styles.header)}>
         <img src={logoFacebook} alt='logo-facebook' />
         <SearchBar />
