@@ -1,22 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from './css/App.module.scss';
+import clsx from 'clsx';
+
+import SearchBar from './components/SearchBar/index.js';
+
+import logoFacebook from './images/logo-facebook.svg';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className={styles.wrapper}>
+      <header className={styles.header}>
+        <img src={logoFacebook} alt='logo-facebook' />
+        <SearchBar />
       </header>
     </div>
   );
