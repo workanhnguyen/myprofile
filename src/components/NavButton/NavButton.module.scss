@@ -1,0 +1,25 @@
+:root {
+    --primary-width: 40px;
+}
+
+.container {
+    margin: 0 4px 0 4px;
+
+    border-radius: 50px;
+    background-color: #e3e6eb;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #DADDE1;
+    }
+}
+
+.container img {
+    width: 40px;
+    padding: 10px;
+    color: #050505;
+}
+
+.avatar {
+    width: 40px;
+}
